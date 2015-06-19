@@ -84,7 +84,7 @@ public class MainController implements Initializable {
             "Draven", "Ekko", "Elise", "Evelynn", "Ezreal", "Fiddlesticks",
             "Fiora", "Fizz", "Galio", "Gangplank", "Garen", "Gnar", "Gragas",
             "Graves", "Hecarim", "Heimerdinger", "Irelia", "Janna", "Jarvan IV",
-            "Jax", "Jayce", "Jinx", "Kalista", "Karma", "Karthus", "Katarina",
+            "Jax", "Jayce", "Jinx", "Kalista", "Karma", "Karthus", "Kassadin", "Katarina",
             "Kayle", "Kennen", "Kha'Zix", "Kog'Maw", "Leblanc", "Lee Sin",
             "Leona", "Lissandra", "Lucian", "Lulu", "Lux", "Malphite", "Malzahar",
             "Maokai", "Master Yi", "Miss Fortune", "Mordekaiser", "Morgana", "Nami",
@@ -93,7 +93,7 @@ public class MainController implements Initializable {
             "Riven", "Rumble", "Ryze", "Sejuani", "Shaco", "Shen", "Shyvana", "Singed",
             "Sion", "Sivir", "Skarner", "Sona", "Soraka", "Swain", "Syndra", "Talon",
             "Taric", "Teemo", "Thresh", "Tristana", "Trundle", "Tryndamere", "Twisted Fate",
-            "Twitch", "Udyr", "Urgot", "Varus", "Vayne", "Veigar", "Vel'Koz", "Viktor",
+            "Twitch", "Udyr", "Urgot", "Varus", "Vayne", "Veigar", "Vel'Koz", "Vi", "Viktor",
             "Vladimir", "Volibear", "Warwick", "Wukong", "Xerath", "Xin Zhao", "Yasuo",
             "Yorick", "Zac", "Zed", "Ziggs", "Zilean", "Zyra"
     );
@@ -352,7 +352,7 @@ public class MainController implements Initializable {
     }
 
     @FXML
-    public void addedChampion(ActionEvent e) { //Called when an element is selected from ComboBox
+    public void addedChampion() { //Called when an element is selected from ComboBox
         errorLabel.setVisible(false);
 
         if(selectedRoleButton != null) { //if a role is selected
@@ -403,12 +403,12 @@ public class MainController implements Initializable {
     @FXML
     public void copyToClipboard() {
         errorLabel.setVisible(false);
+        addToString();
 
         StringBuilder builder = new StringBuilder();
         toSearchString.forEach(builder::append);
-        String s = builder.toString();
 
-        StringSelection stringSelection = new StringSelection (s);
+        StringSelection stringSelection = new StringSelection (builder.toString());
         Clipboard clipboard = Toolkit.getDefaultToolkit ().getSystemClipboard ();
         clipboard.setContents (stringSelection, null);
     }
@@ -442,6 +442,9 @@ public class MainController implements Initializable {
             selectedRoleButton = "support";
             selectedList.setItems(supportList);
         }
+
+        addToString();
+        copyToClipboard();
     }
 
     public void buttonSelection(ToggleButton selected) {
