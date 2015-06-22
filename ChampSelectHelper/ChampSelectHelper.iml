@@ -11,7 +11,16 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/riot-api-java.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/jars/riot-api-java.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/src/jars/org.json-20120521.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
