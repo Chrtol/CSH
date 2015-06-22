@@ -1,0 +1,155 @@
+
+#anchor-right {
+    -fx-background-color: rgb(40,40,40);
+}
+
+#anchor-topleft {
+    -fx-background-color: rgb(40,40,40);
+    -fx-border-width: 1px;
+    -fx-border-color: rgb(60,63,65);
+}
+
+#anchor-bottomleft {
+    -fx-background-color: rgb(40,40,40);
+    -fx-border-width: 1px;
+    -fx-border-color: rgb(60,63,65);
+}
+
+#top-menu {
+    -fx-background-color: rgb(40,40,40);
+    -fx-border-width: 1px;
+    -fx-border-color: rgb(60,63,65);
+}
+
+.menu .label {
+    -fx-text-fill: white;
+}
+
+.menu-item .label {
+    -fx-text-fill: black;
+}
+
+#top-button {
+    -fx-graphic: url('http://i.imgur.com/RxG7Tze.png');
+    -fx-background-size: 100,100;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-focus-color: transparent;
+}
+
+#top-button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-size: 100,100;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-focus-color: transparent;
+}
+
+#jungle-button {
+    -fx-graphic: url('http://i.imgur.com/3k1yNCt.png');
+    -fx-background-size: 100,100;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-focus-color: transparent;
+}
+
+#jungle-button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-size: 100,100;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-focus-color: transparent;
+}
+
+#mid-button {
+    -fx-graphic: url('http://i.imgur.com/OPLOvWf.png');
+    -fx-background-size: 100,100;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#mid-button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-size: 100,100;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-focus-color: transparent;
+}
+
+#adc-button {
+    -fx-graphic: url('http://i.imgur.com/29A7ZaU.png');
+    -fx-background-size: 100,100;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-focus-color: transparent;
+}
+
+#adc-button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-size: 100,100;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-focus-color: transparent;
+}
+
+#support-button {
+    -fx-graphic: url('http://i.imgur.com/Xm3IAmz.png');
+    -fx-background-size: 100,100;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-focus-color: transparent;
+}
+
+#support-button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-size: 100,100;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-focus-color: transparent;
+}
+
+#ban-button {
+    -fx-graphic: url('http://i.imgur.com/1mpR9ot.png');
+    -fx-background-size: 100,100;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-focus-color: transparent;
+}
+
+#ban-button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-size: 100,100;
+}
+
+#custom1-button {
+    -fx-graphic: url('http://i.imgur.com/siA7j6N.png');
+    -fx-background-size: 100,100;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-focus-color: transparent;
+}
+
+#custom1-button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-size: 100,100;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-focus-color: transparent;
+}
+
+#custom2-button {
+    -fx-graphic: url('http://i.imgur.com/e19Xydg.png');
+    -fx-background-size: 100,100;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-focus-color: transparent;
+}
+
+#custom2-button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-size: 100,100;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-focus-color: transparent;
+}
+
