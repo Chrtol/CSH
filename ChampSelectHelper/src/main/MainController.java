@@ -455,9 +455,9 @@ public class MainController implements Initializable {
             for (int i = 0; i < findSelectedRoleButton().size(); i++) { //Adds RegEx
                 s = findSelectedRoleButton().get(i);
                 if (i == findSelectedRoleButton().size() - 1 && s.equalsIgnoreCase("vi"))
-                    toSearchString.add("^" + s + "$");
+                    toSearchString.add(s + "$");
                 else if (s.equalsIgnoreCase("vi"))
-                    toSearchString.add("^" + s + "$|");
+                    toSearchString.add(s + "$|");
                 else if (i == findSelectedRoleButton().size() -1)
                     return;
                 else
