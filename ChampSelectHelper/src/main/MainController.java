@@ -76,12 +76,6 @@ public class MainController implements Initializable {
     private ObservableList<String> custom2List = FXCollections.observableArrayList();
 
     @FXML
-    private ObservableList<String> winLossList = FXCollections.observableArrayList();
-
-    @FXML
-    private ListView<String> winLossView;
-
-    @FXML
     private Label errorLabel = new Label();
 
     @FXML
@@ -116,8 +110,6 @@ public class MainController implements Initializable {
     );
 
     private String selectedRoleButton;
-
-    private boolean summonerConnected = false;
 
     public void loadFile(String path) {
         errorLabel.setVisible(false);

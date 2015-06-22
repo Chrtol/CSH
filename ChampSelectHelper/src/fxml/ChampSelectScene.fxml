@@ -88,17 +88,17 @@
                         <Font size="1.0" />
                      </font>
                   </ToggleButton>
-                  <ToggleButton id="custom1-button" fx:id="custom1Button" layoutX="13.0" layoutY="235.0" mnemonicParsing="false" onAction="#roleButtonClicked" prefHeight="28.0" prefWidth="84.0">
+                  <ToggleButton id="custom1-button" fx:id="custom1Button" layoutX="13.0" layoutY="275.0" mnemonicParsing="false" onAction="#roleButtonClicked" prefHeight="28.0" prefWidth="84.0">
                      <font>
                         <Font size="1.0" />
                      </font>
                   </ToggleButton>
-                  <ToggleButton id="ban-button" fx:id="banButton" contentDisplay="CENTER" layoutX="13.0" layoutY="315.0" mnemonicParsing="false" onAction="#roleButtonClicked" prefHeight="28.0" prefWidth="86.0">
+                  <ToggleButton id="custom2-button" fx:id="custom2Button" layoutX="13.0" layoutY="315.0" mnemonicParsing="false" onAction="#roleButtonClicked" prefHeight="28.0" prefWidth="84.0">
                      <font>
                         <Font size="1.0" />
                      </font>
                   </ToggleButton>
-                  <ToggleButton id="custom2-button" fx:id="custom2Button" layoutX="13.0" layoutY="275.0" mnemonicParsing="false" onAction="#roleButtonClicked" prefHeight="28.0" prefWidth="84.0">
+                  <ToggleButton id="ban-button" fx:id="banButton" contentDisplay="CENTER" layoutX="13.0" layoutY="235.0" mnemonicParsing="false" onAction="#roleButtonClicked">
                      <font>
                         <Font size="1.0" />
                      </font>
